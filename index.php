@@ -24,7 +24,7 @@
         <div class="main">
           <h1>DIAMOND DOGS</h1>
           <h2>Code Name Generator</h2>
-          <p>Click the 'Generate Name' button to display a Diamond Dogs recruit name!</p>
+          <p>Click the 'Generate Name' button to display a Diamond Dogs name!</p>
           <div class="button-wrapper">
             <form action="<?php echo $_SERVER['PHP_SELF'] ?>">
               <input type="hidden" name="show-name" value="show">

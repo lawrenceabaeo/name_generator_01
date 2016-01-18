@@ -125,4 +125,12 @@ blockquote.style2 {
   margin-left: 50px;
   padding-left: 15px; }
 
+@media (max-device-width: 640px) {
+  /* line 127, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+  h1 {
+    font-size: 2em; }
+  /* line 128, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+  h2, h3 {
+    font-size: 1em; } }
+
 /*# sourceMappingURL=my-styles.css.map */
