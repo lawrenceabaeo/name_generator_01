@@ -1,0 +1,128 @@
+/* line 4, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+html {
+  height: 100%;
+  position: relative; }
+
+/* line 9, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+body {
+  background-color: #124e72;
+  font-family: 'Ubuntu', sans-serif;
+  height: 100%; }
+
+/* line 15, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+.main, .description {
+  background-color: #0B3046;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  color: #E0E0E0;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 600px;
+  border: 1px solid transparent; }
+
+/* line 31, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+.main {
+  padding-bottom: 15px; }
+
+/* line 36, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+h1 {
+  font-size: 3em; }
+
+/* line 40, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+.main h1, .main h2, .main p {
+  text-align: center; }
+
+/* line 44, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+a {
+  color: #E0E0E0; }
+
+/* line 48, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+.description {
+  height: 100%; }
+
+/* line 52, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+.button-wrapper {
+  text-align: center; }
+
+/* line 56, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+.generate-button {
+  background-color: darkgreen;
+  border-radius: 3px; }
+
+/* line 61, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+.close-button {
+  background-color: gray;
+  border-radius: 3px; }
+
+/* line 66, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+.results {
+  background-color: black;
+  border: 1px solid transparent;
+  text-align: center;
+  width: 100%; }
+
+/* line 73, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+.report-header {
+  color: #E0E0E0; }
+
+/* line 77, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+.welcome-header {
+  color: #E49C62; }
+
+/* line 81, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+.generated-name {
+  color: white;
+  font-size: 3em;
+  -webkit-animation: name-fade-in 1s;
+  -moz-animation: name-fade-in 1s;
+  -o-animation: name-fade-in 1s;
+  animation: name-fade-in 1s; }
+
+@-webkit-keyframes name-fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes name-fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-o-keyframes name-fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes name-fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* Gradient transparent - color - transparent */
+/* line 109, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+hr {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  border: 0;
+  height: 1px; }
+
+/* line 116, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+blockquote.style2 {
+  border-left: 3px solid #ccc;
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px; }
+
+/*# sourceMappingURL=my-styles.css.map */
