@@ -53,15 +53,89 @@ a {
   text-align: center;
 }
 
+/**
 .generate-button {
   background-color: darkgreen;
   border-radius: 3px;
 }
+**/
 
+// http://buttonoptimizer.com
+.generate-button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 24px;
+    border: 1px solid #20af5c;
+    border-radius: 8px;
+    background: #34ff98;
+    background: -webkit-gradient(linear, left top, left bottom, from(#34ff98), to(#20af5c));
+    background: -moz-linear-gradient(top, #34ff98, #20af5c);
+    background: linear-gradient(to bottom, #34ff98, #20af5c);
+    text-shadow: #177d42 1px 1px 1px;
+    // font: normal normal bold 20px tahoma;
+    color: #ffffff;
+    text-decoration: none;
+}
+.generate-button:hover,
+.generate-button:focus {
+    border: 1px solid #2dfa84;
+    background: #3effb6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3effb6), to(#26d26e));
+    background: -moz-linear-gradient(top, #3effb6, #26d26e);
+    background: linear-gradient(to bottom, #3effb6, #26d26e);
+    color: #ffffff;
+    text-decoration: none;
+}
+.generate-button:active {
+    background: #20af5c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#20af5c), to(#20af5c));
+    background: -moz-linear-gradient(top, #20af5c, #20af5c);
+    background: linear-gradient(to bottom, #20af5c, #20af5c);
+}
+
+/* 
 .close-button {
   background-color: gray;
   border-radius: 3px;
 }
+*/
+
+.close-button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 24px;
+    border: 1px solid #5e6270;
+    border-radius: 8px;
+    background: #989fb6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#989fb6), to(#5e6270));
+    background: -moz-linear-gradient(top, #989fb6, #5e6270);
+    background: linear-gradient(to bottom, #989fb6, #5e6270);
+    text-shadow: #3b3d46 1px 1px 1px;
+    // font: normal normal bold 20px tahoma;
+    color: #ffffff;
+    text-decoration: none;
+}
+.close-button:hover,
+.close-button:focus {
+    border: 1px solid #757a8c;
+    background: #b6bfda;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b6bfda), to(#717686));
+    background: -moz-linear-gradient(top, #b6bfda, #717686);
+    background: linear-gradient(to bottom, #b6bfda, #717686);
+    color: #ffffff;
+    text-decoration: none;
+}
+.close-button:active {
+    background: #5e6270;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5e6270), to(#5e6270));
+    background: -moz-linear-gradient(top, #5e6270, #5e6270);
+    background: linear-gradient(to bottom, #5e6270, #5e6270);
+}
+
+
+
 
 .results {
   background-color: black;
