@@ -71,9 +71,11 @@ a {
   background: linear-gradient(to bottom, #34ff98, #20af5c);
   text-shadow: #177d42 1px 1px 1px;
   color: #ffffff;
-  text-decoration: none; }
+  text-decoration: none;
+  min-width: 180px;
+  margin-bottom: 5px; }
 
-/* line 81, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+/* line 83, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
 .generate-button:hover,
 .generate-button:focus {
   border: 1px solid #2dfa84;
@@ -84,7 +86,7 @@ a {
   color: #ffffff;
   text-decoration: none; }
 
-/* line 90, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+/* line 92, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
 .generate-button:active {
   background: #20af5c;
   background: -webkit-gradient(linear, left top, left bottom, from(#20af5c), to(#20af5c));
@@ -97,7 +99,7 @@ a {
   border-radius: 3px;
 }
 */
-/* line 104, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+/* line 106, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
 .close-button {
   display: inline-block;
   text-align: center;
@@ -111,9 +113,11 @@ a {
   background: linear-gradient(to bottom, #989fb6, #5e6270);
   text-shadow: #3b3d46 1px 1px 1px;
   color: #ffffff;
-  text-decoration: none; }
+  text-decoration: none;
+  min-width: 180px;
+  margin-bottom: 5px; }
 
-/* line 121, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+/* line 125, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
 .close-button:hover,
 .close-button:focus {
   border: 1px solid #757a8c;
@@ -124,29 +128,29 @@ a {
   color: #ffffff;
   text-decoration: none; }
 
-/* line 130, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+/* line 134, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
 .close-button:active {
   background: #5e6270;
   background: -webkit-gradient(linear, left top, left bottom, from(#5e6270), to(#5e6270));
   background: -moz-linear-gradient(top, #5e6270, #5e6270);
   background: linear-gradient(to bottom, #5e6270, #5e6270); }
 
-/* line 140, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+/* line 144, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
 .results {
   background-color: black;
   border: 1px solid transparent;
   text-align: center;
   width: 100%; }
 
-/* line 147, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+/* line 151, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
 .report-header {
   color: #E0E0E0; }
 
-/* line 151, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+/* line 155, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
 .welcome-header {
   color: #E49C62; }
 
-/* line 155, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+/* line 159, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
 .generated-name {
   color: white;
   font-size: 3em;
@@ -180,13 +184,13 @@ a {
     opacity: 1; } }
 
 /* Gradient transparent - color - transparent */
-/* line 183, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+/* line 187, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
 hr {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
   border: 0;
   height: 1px; }
 
-/* line 190, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+/* line 194, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
 blockquote.style2 {
   border-left: 3px solid #ccc;
   font: 14px/22px normal helvetica, sans-serif;
@@ -196,10 +200,10 @@ blockquote.style2 {
   padding-left: 15px; }
 
 @media (max-device-width: 640px) {
-  /* line 201, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+  /* line 205, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
   h1 {
     font-size: 2em; }
-  /* line 202, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
+  /* line 206, /Users/lawrenceabaeo/Documents/Sites/name_generator_01/css/my-styles.scss */
   h2, h3 {
     font-size: 1em; } }
 
